@@ -14,56 +14,277 @@
 	<body>
 
 		<header class="header">
-			<div class="header-logo">
-
+			<div class="header__logo">
+				<a href="#">
+					<img src="./img/instagram-logo.svg" alt="Logo Instagram">
+				</a>
 			</div>
-			<div class="header-iconsend">
-
+			<div class="header__iconsend">
+				<i class="far fa-paper-plane"></i>
 			</div>
 		</header>
 
 		<main class="feed">
 
-			<ul class="users-list">
-				<li class="user-item">
-					<img src="./img/profiles/yoda/yoda-profile.jpg" alt="Imagem de usuario" class="user-img">
+			<ul class="users__list">
+				<li class="user__item">
+					<a href="#">
+						<img src="./img/profiles/yoda/yoda-profile.jpg" alt="Imagem de usuario" class="user__img">
+					</a>
 				</li>
-				<li class="user-item">
-					<img src="./img/profiles/gamora/gamora-profile.jpg" alt="Imagem de usuario" class="user-img">
+				<li class="user__item user__item--stories">
+					<a href="#">
+						<img src="./img/profiles/gamora/gamora-profile.jpg" alt="Imagem de usuario" class="user__img">
+					</a>
 				</li>
-				<li class="user-item">
-					<img src="./img/profiles/black-panther/black-panther-profile.jpg" alt="Imagem de usuario" class="user-img">
+				<li class="user__item">
+					<a href="#">
+						<img src="./img/profiles/black-panther/black-panther-profile.jpg" alt="Imagem de usuario" class="user__img">
+					</a>
 				</li>
 			</ul>
 
 			<div class="posts">
 
 				<div class="post">
-					<header class="post-heder">
-						<div class="user-info">
-							<img src="" alt="" class="user-profile">
-							<span class="user-name"></span>
+					<header class="post__heder">
+						<div class="user__info">
+							<a href="#">
+								<img src="./img/profiles/yoda/yoda-profile.jpg" alt="" class="user__img">
+								<span class="user__name">Mestre Yoda</span>
+							</a>
 						</div>
-						<div class="post-config">
-
+						<div class="post__config">
+							<i class="fas fa-ellipsis-h"></i>
 						</div>
 					</header>
-					<figure class="post-picture">
-						<img src="" alt="" class="picture-img">
+					<figure class="post__picture">
+						<img src="./img/profiles/yoda/yoda-1.jpg" alt="My Post" class="picture__img">
 					</figure>
-					<footer class="post-footer">
-						<div>
-							<ul class="post-interaction">
-								<li class="post-enjoy"></li>
-								<li class="post-comment"></li>
+					<footer class="post__footer">
+						<div class="footer__actions">
+							<ul class="post__interaction">
+								<li class="interaction__item">
+									<i class="far fa-heart"></i>
+								</li>
+								<li class="interaction__item">
+									<i class="far fa-comment"></i>
+								</li>
 							</ul>
-							<ul class="post-interaction">
-								<li class="post-save"></li>
+							<ul class="post__interaction">
+								<li class="interaction__item">
+									<i class="far fa-bookmark"></i>
+								</li>
 							</ul>
 						</div>
-						<div class="footer-info">
-							<img src="" alt="" class="info-profile">
-							<p class="info-text"></p>
+						<div class="footer__info">
+							<div class="user__item">
+								<img src="./img/profiles/domino/domino-profile.jpg" alt="Imagem de usuario" class="user__img">
+							</div>
+							<p class="info__text">curtido por <strong><a href="#">Domino</a></strong> e outras <strong><a href="#">7 pessoas</a></strong></p>
+						</div>
+					</footer>
+				</div>				
+
+				<div class="post">
+					<header class="post__heder">
+						<div class="user__info">
+							<a href="#">
+								<img src="./img/profiles/gamora/gamora-profile.jpg" alt="" class="user__img">
+								<span class="user__name">Gamora Zen</span>
+							</a>
+						</div>
+						<div class="post__config">
+							<i class="fas fa-ellipsis-h"></i>
+						</div>
+					</header>
+					<figure class="post__picture">
+						<img src="./img/profiles/gamora/gamora-1.jpg" alt="My Post" class="picture__img">
+					</figure>
+					<footer class="post__footer">
+						<div class="footer__actions">
+							<ul class="post__interaction">
+								<li class="interaction__item">
+									<i class="far fa-heart"></i>
+								</li>
+								<li class="interaction__item">
+									<i class="far fa-comment"></i>
+								</li>
+							</ul>
+							<ul class="post__interaction">
+								<li class="interaction__item">
+									<i class="far fa-bookmark"></i>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__info">
+							<div class="user__item">
+								<img src="./img/profiles/carol/carol-profile.jpg" alt="Imagem de usuario" class="user__img">
+							</div>
+							<p class="info__text">curtido por <strong><a href="#">Carol Danvers</a></strong> e outras <strong><a href="#">7 pessoas</a></strong></p>
+						</div>
+					</footer>
+				</div>
+
+				<div class="post">
+					<header class="post__heder">
+						<div class="user__info">
+							<a href="#">
+								<img src="./img/profiles/black-panther/black-panther-profile.jpg" alt="" class="user__img">
+								<span class="user__name">T'Challa</span>
+							</a>
+						</div>
+						<div class="post__config">
+							<i class="fas fa-ellipsis-h"></i>
+						</div>
+					</header>
+					<figure class="post__picture">
+						<img src="./img/profiles/black-panther/black-panther-1.jpg" alt="My Post" class="picture__img">
+					</figure>
+					<footer class="post__footer">
+						<div class="footer__actions">
+							<ul class="post__interaction">
+								<li class="interaction__item">
+									<i class="far fa-heart"></i>
+								</li>
+								<li class="interaction__item">
+									<i class="far fa-comment"></i>
+								</li>
+							</ul>
+							<ul class="post__interaction">
+								<li class="interaction__item">
+									<i class="far fa-bookmark"></i>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__info">
+							<div class="user__item">
+								<img src="./img/profiles/bruce/bruce-profile.jpg" alt="Imagem de usuario" class="user__img">
+							</div>
+							<p class="info__text">curtido por <strong><a href="#">Bruce Wayne</a></strong> e outras <strong><a href="#">7 pessoas</a></strong></p>
+						</div>
+					</footer>
+				</div>
+
+
+				<div class="post">
+					<header class="post__heder">
+						<div class="user__info">
+							<a href="#">
+								<img src="./img/profiles/carol/carol-profile.jpg" alt="" class="user__img">
+								<span class="user__name">Carol Danvers</span>
+							</a>
+						</div>
+						<div class="post__config">
+							<i class="fas fa-ellipsis-h"></i>
+						</div>
+					</header>
+					<figure class="post__picture">
+						<img src="./img/profiles/carol/carol-1.jpg" alt="My Post" class="picture__img">
+					</figure>
+					<footer class="post__footer">
+						<div class="footer__actions">
+							<ul class="post__interaction">
+								<li class="interaction__item">
+									<i class="far fa-heart"></i>
+								</li>
+								<li class="interaction__item">
+									<i class="far fa-comment"></i>
+								</li>
+							</ul>
+							<ul class="post__interaction">
+								<li class="interaction__item">
+									<i class="far fa-bookmark"></i>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__info">
+							<div class="user__item">
+								<img src="./img/profiles/yoda/yoda-profile.jpg" alt="Imagem de usuario" class="user__img">
+							</div>
+							<p class="info__text">curtido por <strong><a href="#">Mestre Yoda</a></strong> e outras <strong><a href="#">7 pessoas</a></strong></p>
+						</div>
+					</footer>
+				</div>
+
+
+				<div class="post">
+					<header class="post__heder">
+						<div class="user__info">
+							<a href="#">
+								<img src="./img/profiles/domino/domino-profile.jpg" alt="" class="user__img">
+								<span class="user__name">Domino</span>
+							</a>
+						</div>
+						<div class="post__config">
+							<i class="fas fa-ellipsis-h"></i>
+						</div>
+					</header>
+					<figure class="post__picture">
+						<img src="./img/profiles/domino/domino-1.jpg" alt="My Post" class="picture__img">
+					</figure>
+					<footer class="post__footer">
+						<div class="footer__actions">
+							<ul class="post__interaction">
+								<li class="interaction__item">
+									<i class="far fa-heart"></i>
+								</li>
+								<li class="interaction__item">
+									<i class="far fa-comment"></i>
+								</li>
+							</ul>
+							<ul class="post__interaction">
+								<li class="interaction__item">
+									<i class="far fa-bookmark"></i>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__info">
+							<div class="user__item">
+								<img src="./img/profiles/black-panther/black-panther-profile.jpg" alt="Imagem de usuario" class="user__img">
+							</div>
+							<p class="info__text">curtido por <strong><a href="#">T'Challa</a></strong> e outras <strong><a href="#">7 pessoas</a></strong></p>
+						</div>
+					</footer>
+				</div>
+
+
+				<div class="post">
+					<header class="post__heder">
+						<div class="user__info">
+							<a href="#">
+								<img src="./img/profiles/bruce/bruce-profile.jpg" alt="" class="user__img">
+								<span class="user__name">Bruce Wayne</span>
+							</a>
+						</div>
+						<div class="post__config">
+							<i class="fas fa-ellipsis-h"></i>
+						</div>
+					</header>
+					<figure class="post__picture">
+						<img src="./img/profiles/bruce/bruce-1.jpg" alt="My Post" class="picture__img">
+					</figure>
+					<footer class="post__footer">
+						<div class="footer__actions">
+							<ul class="post__interaction">
+								<li class="interaction__item">
+									<i class="far fa-heart"></i>
+								</li>
+								<li class="interaction__item">
+									<i class="far fa-comment"></i>
+								</li>
+							</ul>
+							<ul class="post__interaction">
+								<li class="interaction__item">
+									<i class="far fa-bookmark"></i>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__info">
+							<div class="user__item">
+								<img src="./img/profiles/gamora/gamora-profile.jpg" alt="Imagem de usuario" class="user__img">
+							</div>
+							<p class="info__text">curtido por <strong><a href="#">Gamora Zen</a></strong> e outras <strong><a href="#">7 pessoas</a></strong></p>
 						</div>
 					</footer>
 				</div>
